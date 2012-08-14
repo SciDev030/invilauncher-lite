@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>inviLauncher Lite</title>
+		<meta name="description" content="This is an invisible applauncher. Version: 1.6.0, Date: 02/27/2012, Author: SciDev"/>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/applauncher.js"></script>
+		<link id="style" href="css/style-0.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body id="switchcontent" onload="appInit();">
+		<div id="launcher">
+			<div onclick="appLaunchWEB();" id="web">
+				<p>open<br/><br/>web</p>
+			</div>
+			<div onclick="appLaunchCALENDAR();" id="calendar">
+				<p>open<br/><br/>calendar</p>
+			</div>
+			<div onclick="appLaunchNAV();" id="navi">
+				<p>open<br/><br/>navigation</p>
+			</div>
+			<div onclick="switcher();" id="box">
+				<p>hide<br/><br/>boxes</p>
+			</div>
+			<div id="info">
+				<p>
+					inviLauncher Lite v<script type="text/javascript">document.write(WidgetConfig.Version);</script><br/>
+					<a href="http://www.scidev.eu" title="SciDev.eu">Homepage</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
